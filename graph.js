@@ -340,12 +340,6 @@ function updateGraph() {
 
 	;
 
-	var div1 = div.append("p").text("Added a ");
-
-	var span = div1.append('span').text("Voronoi overlay").style("color", "rgb(0,128,128)");
-	;
-
-	var span0 = div1.append('span').text(" to ");
 
 	var link1 = div1.append('a').text("Mike Bostock's recreation in D3 ")
 		.attr("href", "https://bost.ocks.org/mike/nations/").style("color", "steelblue")
@@ -365,7 +359,7 @@ function updateGraph() {
 		.style("color", 'steelblue')
 		.style("text-decoration", 'none');
 
-	var span3 = div1.append('span').text(". Here tried to recreate a World Value Survey over 30 years with 80 countries, with happiness on the y-axis and pride in country on the x-axis.");
+	var span3 = div1.append('span').text(". Here with a Voronoi layer by sachaysl. Tried to recreate a World Value Survey over 30 years with 80 countries, with happiness on the y-axis and pride in country on the x-axis.");
 
 	var span5 = span4.append("span").text(" Mouseover the year label on the right to move forward and backwards through time.").style("color", "grey");
 
