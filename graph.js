@@ -365,10 +365,7 @@ function updateGraph() {
 		.style("color", 'steelblue')
 		.style("text-decoration", 'none');
 
-	var span3 = div1.append('span').text(". It shows the dynamic fluctuation in per-capita income (x), life expectancy (y) and population (radius) of 180 nations over the last 209 years. Nations are colored by geographic region; mouseover to read their names.");
-
-	var span4 = div1.append('p').text(" The purpose of a Voronoi overlay is to have FUN mouseover interaction (in this case when hovering over the graph the closest country to the mouse will be highlighted).")
-		.style("color", "rgb(0,128,128)");
+	var span3 = div1.append('span').text(". Here tried to recreate a World Value Survey over 30 years with 80 countries, with happiness on the y-axis and pride in country on the x-axis.");
 
 	var span5 = span4.append("span").text(" Mouseover the year label on the right to move forward and backwards through time.").style("color", "grey");
 
